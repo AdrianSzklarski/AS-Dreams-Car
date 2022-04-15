@@ -6,4 +6,4 @@ Settings Website;
 - link of fontavesome;
 - reset CSS; 
 
-Add basic memu;
+Add first basic memu;
