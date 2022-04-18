@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+/* Nawigation */
 .nav {
     height: 50px;
     background-color: #333;
@@ -32,4 +32,34 @@ body {
 }
 .nav-item a:hover {
     color: #1a476b;
+}
+
+/* header */ 
+
+.header-img {
+    position: relative;
+    height: 400px;
+    background-image: url('../img/interiorPorsche_1920.jpg');
+    background-size: cover;
+    background-position: 0 20%;
+}
+
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(218, 165, 32, .7);
+    text-align: center;
+    font-style: italic;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.header-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 3, 27, 0.4);
+    z-index: 1;
 }
