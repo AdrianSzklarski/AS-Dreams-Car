@@ -35,7 +35,6 @@ body {
 }
 
 /* header */ 
-
 .header-img {
     position: relative;
     height: 400px;
@@ -62,4 +61,29 @@ body {
     width: 100%;
     background-color: rgba(0, 3, 27, 0.4);
     z-index: 1;
+}
+
+/* foorer */
+footer {
+    height: 80px;
+    line-height: 80px;
+    color: #ddd;
+    background-color: #333;
+    text-align: center;
+    font-style: 20px;
+}
+
+.icon-box {
+    margin-left: 20px;
+}
+
+.icon-box a {
+    margin: 0 5px;
+    color: rgb(218, 165, 32, .7);
+    font-size: 30px;
+    transition: color .3s;
+}
+
+.icon-box a:hover {
+    color: #1a476b;
 }
