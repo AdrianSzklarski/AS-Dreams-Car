@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 /* Nawigation */
 .nav {
     height: 50px;
@@ -45,14 +46,32 @@ body {
 
 .header-text {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(218, 165, 32, .7);
     text-align: center;
     font-style: italic;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
+}
+
+.header-text h1 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-text h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-text p {
+    margin-bottom: 10px;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 .header-bg {
@@ -79,7 +98,7 @@ footer {
 
 .icon-box a {
     margin: 0 5px;
-    color: rgb(218, 165, 32, .7);
+    color: #fff;
     font-size: 30px;
     transition: color .3s;
 }
