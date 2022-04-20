@@ -82,6 +82,22 @@ body {
     z-index: 1;
 }
 
+/* main */
+main {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+main h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-us-box {
+    margin: 40px 0;
+}
+
 /* foorer */
 footer {
     height: 80px;
